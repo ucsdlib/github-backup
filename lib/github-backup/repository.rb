@@ -20,7 +20,7 @@ module GithubBackup
     end
 
     def clone_url
-      sawyer_resource.ssh_url
+      sawyer_resource.html_url
     end
 
     def backup_path
